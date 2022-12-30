@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/home">Home</a>
+<a href="/create">Tao moi</a>
+<form action="/home" method="post">
+  <input class="form-control me-2" type="search" placeholder="Search" name="search" id="search">
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</form>
+<table border="1">
+  <tr>
+    <td>STT</td>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Address</td>
+    <td>Grade</td>
+    <td colspan="2"></td>
+  </tr>
+  <tbody>
+  {products}
+  </tbody>
+
+</table>
+</body>
+</html>
